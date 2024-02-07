@@ -7,23 +7,23 @@
     font-family: 'Inter', sans-serif;
 }
 
-:root{
-    --text-color:white;
+:root {
+    --text-color: white;
     --bg-url: url(./assets/img/Background.png);
-    --border-avatar-color: #ffffff70; 
+    --border-avatar-color: #ffffff70;
     --box-shadow: rgba(255, 255, 255, 0.5);
-    --bg-btn:rgba(255, 255, 255, 0.3);
+    --bg-btn: rgba(255, 255, 255, 0.3);
     --bg-icons: #242424;
     --moon-sun: url(assets/img/Sun.svg);
     --bg-mobile: url(assets/img/bg-mobile.jpg);
 }
 
-.light{
+.light {
     --text-color: black;
     --bg-url: url(./assets/img/bg-desktop-light.jpg);
-    --border-avatar-color: #0000007f; 
+    --border-avatar-color: #0000007f;
     --box-shadow: rgba(0, 0, 0, 0.5);
-    --bg-btn:rgba(0, 0, 0, 0.1);
+    --bg-btn: rgba(0, 0, 0, 0.1);
     --bg-icons: hsla(274, 60%, 77%, 0.697);
     --moon-sun: url(assets/img/MoonStars.svg);
     --bg-mobile: url(assets/img/bg-mobile-light.jpg);
@@ -68,14 +68,14 @@ body {
     margin-bottom: 8px;
 }
 
-.switch{
+.switch {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.moon{
+.moon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +88,7 @@ body {
     right: 50%;
 }
 
-.track{
+.track {
     display: block;
     width: 64px;
     height: 24px;
@@ -99,7 +99,7 @@ body {
     --webkit-backdrop-filter: blur(4px);
 }
 
-.light .moon{
+.light .moon {
     right: 0;
     left: initial;
 }
@@ -170,7 +170,7 @@ ul li a:hover {
 
 
 @media (max-width: 420px) {
-   body{
-    background: var(--bg-mobile) no-repeat center/cover;
-   }
-  }
+    body {
+        background: var(--bg-mobile) no-repeat center/cover;
+    }
+}
